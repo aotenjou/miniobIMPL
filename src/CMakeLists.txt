@@ -1,7 +1,0 @@
-ADD_SUBDIRECTORY(common)
-ADD_SUBDIRECTORY(observer)
-ADD_SUBDIRECTORY(obclient)
-
-if (WITH_MEMTRACER)
-    ADD_SUBDIRECTORY(memtracer)
-endif()
